@@ -1,4 +1,16 @@
 aid: momo-project
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/momo-project.png
 name: Momo Project
 description: Momo Project is a company surfaced as a portfolio company of 500-global and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,12 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-lead-status: dead-domain
+x-lead-note: 'Enrichment probe 2026-07-20 found meetmydogchallenge.com is an expired/parked
+  domain (301 -> expireddomains.com GoDaddy sale page; nameservers ns1/ns2.dns-redirect.com).
+  All paths return identical parking-page 200s (no real API surface). No live company,
+  developer portal, docs, or API could be discovered.'
 tags:
 - Company
 apis: []
@@ -23,3 +40,8 @@ maintainers:
 common:
 - type: Website
   url: https://meetmydogchallenge.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
